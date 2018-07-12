@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  canna-push-server:
+    image: canna-push-server
+    build: .
+    ports:
+      - 8080:8080
